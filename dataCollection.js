@@ -77,4 +77,16 @@
 // console.log(dataObjects)
 
 // //4
-// const averageAge = dataObjects []
+const dataObjects = 
+[{ id: '42', name: 'Bruce', occupation: 'Knight', age: '41' },
+ { id: '57', name: 'Bob', occupation: 'Fry Cook', age: '19' },
+ { id: '63', name: 'Blaine', occupation: 'Quiz Master', age: '58' },
+ {id: '98', name: 'Bill', occupation: 'Doctor’s Assistant', age: '26'}
+]
+
+let sum=0;
+for (let i = 0; i < dataObjects.length; i++) {
+    let sum += dataObjects[.age];
+    
+}
+//im completely lost on how to do this part. i dont know where to go from here. I know i am missing parts to go from the sum to finding the average by using the sum and dividing it by the index length of the object array, i just dont know how to get there.
